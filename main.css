@@ -7,14 +7,14 @@ body{
 
 /* Bloco de estilização de cabeçalho */
 header{
-    background-color: rgb(70,70,70);    
-    color: #ffb885;
-    text-align: center; 
+    background-color: #333333;
+    color: #ffb855;
+    text-align: center;
     padding: 1rem 0;
 }
 
 .banner-content{
-    width: 100%;
+    width: 80%;
 }
 
 .banner h1{
@@ -33,7 +33,6 @@ nav a{
     text-decoration: none;
     color: #000000;
     margin: 0 1rem;
-    border: 10px;
     padding: 0.5rem 1rem;
     background-color: #ffb855;
     border-radius: 30px;
@@ -48,7 +47,7 @@ main{
     margin: 2rem auto;
 }
 
-/* Estilização das seções da página compostas por Produtos, bebidas, pedidos e contato */
+/* Estilização das sessões da pagina compostas por Produtos, Bebidas, Pedidos e Contato */
 
 .categoria{
     margin-bottom: 2rem;
@@ -90,18 +89,21 @@ main{
 footer{
     text-align: center;
     padding: 1rem 0;
-    background-color: #000000;
+    background-color: #333333;
     color: #fff;
+    font-weight: bold;
 }
 
+
 /* Estilo de responsividade */
-@media(min-width: 768px){
-     main{
+@media (min-width: 768px){
+    main{
         width: 60%;
-     }
-     .categoria{
+    }
+    .categoria{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 1rem;
-     }
+
+    }
 }
