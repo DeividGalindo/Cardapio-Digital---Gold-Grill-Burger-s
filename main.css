@@ -73,6 +73,7 @@ main{
 }
 
 .preco{
+    font-weight: bold;
     color: #ffb855;
     margin-bottom: 1rem;
 }
@@ -84,6 +85,13 @@ main{
     padding: 0.5rem 1rem;
     border-radius: 30px;
     cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #000000;
+    color: #fff;
 }
 
 /* Estilo de responsividade */
