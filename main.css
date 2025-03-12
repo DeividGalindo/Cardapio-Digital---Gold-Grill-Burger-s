@@ -57,11 +57,28 @@ main{
 
 .categoria{
     margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
 }
 
 .logo{
     float: right;
     margin-left: 10px;
+
+}
+
+.categoria h2 {
+    position: absolute;
+    top: 0px; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    margin-top: -20px;
+    text-align: center;
 
 }
 
@@ -111,6 +128,7 @@ main{
 
 .hamburguer img{
     max-width: 100%;
+    margin-top: 30px;
     width: 12rem;
     height: 10rem;
     border-radius: 8px;
@@ -118,6 +136,7 @@ main{
 }
 .porcoes img{
     max-width: 100%;
+    margin-top: 30px;
     width: 12rem;
     height: 10rem;
     border-radius: 8px;
@@ -126,6 +145,7 @@ main{
 
 .bebidas img{
     max-width: 100%;
+    margin-top: 30px;
     height: 10rem;
     border-radius: 8px;
     margin-bottom: 1rem;
@@ -133,6 +153,7 @@ main{
 
 .pods img{
     max-width: 100%;
+    margin-top: 30px;
     width: 12rem;
     height: 10rem;
     border-radius: 8px;
