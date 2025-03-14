@@ -207,7 +207,7 @@ main{
 }
 
 #pedido{
-    background-color: #b3aba1;
+    background-color: #e0e0e0;
     padding: 1rem;
     border-radius: 10px;
 }
@@ -223,7 +223,13 @@ main{
 }
 
 .redes-sociais a{
-    
+   display: inline-block;
+   background-color: #ffcd88;
+   color: #000000;
+   padding: 0.5rem 1rem;
+   border-radius: 5px;
+   text-decoration: none;
+   margin: 0.5rem; 
 }
 
 
