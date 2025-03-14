@@ -206,6 +206,26 @@ main{
     cursor: pointer;
 }
 
+#pedido{
+    background-color: #b3aba1;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#lista-pedido{
+    list-style: none;
+    padding: 0;
+}
+
+#contato{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.redes-sociais a{
+    
+}
+
 
 
 footer{
